@@ -1,0 +1,155 @@
+/**
+ * Reset some basic elements
+ */
+
+//Print CSS
+@media print{
+    @page {
+            size: A4;
+
+            @bottom {
+                content: " ";
+                background-color: $header_color;
+            }
+            // @bottom-center {
+            //     //content: flow(pageFooter);
+            //     content: element(footer);
+            // }
+
+
+
+
+    }
+
+    @page :left {
+        @bottom-right-corner {
+            // content: counter(page) ;
+            content: element(footer);
+            background-color:$brand-accent-color;
+            display: flex;
+
+        }
+
+
+        @bottom-left-corner {
+            content: " ";
+            background-color: $header_color;
+
+        }
+
+        @top {
+                content: string(chapter);
+                border-bottom: 3px solid $brand-accent-color-secondary;
+            }
+    }
+
+    @page :right {
+        @bottom-left-corner {
+            // content: counter(page) ;
+            content: element(footer);
+            background-color:$brand-accent-color;
+            display: flex;
+
+        }
+
+
+        @bottom-right-corner {
+            content: " ";
+            background-color: $header_color;
+
+        }
+
+        @top {
+                content: string(doctitle);
+                border-bottom: 3px solid $brand-accent-color-secondary;
+            }
+    }
+
+    h2{
+        string-set: chapter content();
+    }
+
+    .site-title{
+        string-set: doctitle content();
+    }
+
+    body{
+        background: white !important;
+    }
+
+    img.step-img{
+        width: 150px;
+        height:150px;
+    }
+
+    .home{
+        // h1,h2,h3,h4,h5,h6{
+        // }
+        h3{
+            page-break-before: always;
+
+            &:first-of-type{
+                page-break-before: auto;
+            }
+        }
+
+        h2{
+            page-break-before: always;
+
+        }
+
+        .doc-section{
+
+            &:first-child h2{
+                page-break-before: auto;
+
+            }
+        }
+
+        table{
+            page-break-inside: avoid;
+        }
+
+        blockquote{
+            border: none;
+            text-align: center;
+        }
+    }
+
+
+
+
+} 
+.print-footer{
+        // height: 50px;
+        // width: 210mm;
+        // margin-bottom:-20mm;
+        // padding-bottom: 20mm;
+        //flow: static(pageFooter);
+        // width: 50px;
+        // height: 50px;
+        text-align: center;
+        margin-left: 10px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        // border: 1px solid $brand-accent-color-secondary;
+        position: running(footer);
+
+        > div {
+            // margin-top: 15px;
+            height: 50px;
+            width:50px;
+            margin-left: 10px;
+            border: 1px solid $brand-accent-color-secondary;
+            border-radius: 25px;
+
+            > div{
+            
+                margin-top: 14px;
+                content: counter(page);
+            }
+            
+        }
+
+    }

@@ -1,0 +1,31 @@
+<header class="site-header hidden-print">
+
+  <div class="wrapper container">
+
+  	<a class="brand-icon hidden-xs" href="http://sunstoneengineering.com/" ><img src="http://sunstoneengineering.com/wp-content/uploads/2014/01/sunstone-logo.png" alt="Orion Welders" height="68" data-pin-nopin="true"></a>
+
+    <div class="site-title">{{ site.title }}</div>
+
+    <div class="change-language">
+    	{% capture language-count %}{{site.data.languages | size}}{% endcapture %}
+    	{% if language-count != "0" and language-count != "1" and language-count != "" %}
+    	<div class="dropdown">
+		  	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+		    	{{page.languages-translation}}
+		    	<span class="caret"></span>
+		  	</button>
+		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		    	{% for language in site.data.languages %}
+			    	{% capture page_path %}_docs/{{language}}/doc-main.md{% endcapture %}
+	        		{% assign ittr_page = site.docs | where:"path", page_path | first %}
+		    		<li><a href="{{ittr_page.permalink}}">{{ittr_page.language-name}}</a></li>
+		    	{%endfor%}
+		  	</ul>
+		</div>
+		{% endif %}
+
+    </div>
+
+  </div>
+
+</header>
