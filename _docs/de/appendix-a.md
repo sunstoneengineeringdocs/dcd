@@ -2,6 +2,8 @@
 title: "Appendix A: Glossary"
 ---
 
+Change
+
 ***AWG:*** American Wire Gauge is the standardized wire gauge system.  
 ***FAYING:*** Faying surfaces are those that have been joined by a weld.  
 ***PULSE:*** A burst of electrical energy.  
