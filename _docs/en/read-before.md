@@ -10,9 +10,9 @@ symbols:
 ##### CAUTION ELECTRIC SHOCK HAZARD, EYE PROTECTION REQUIRED
 
 <div class="flex-box flex-center flex-wrap">
-	<img src="/img/warn_warning.png" class="warning-img"/>
-	<img src="/img/warn_electrical_shock.png" class="warning-img"/>
-	<img src="/img/warn_glasses_required.png" class="warning-img"/>
+	<img src="/dcd/img/warn_warning.png" class="warning-img"/>
+	<img src="../images/warn_electrical_shock.png" class="warning-img"/>
+	<img src="../img/warn_glasses_required.png" class="warning-img"/>
 </div>
 
 Consult these symbols and the related instructions listed next to the symbols

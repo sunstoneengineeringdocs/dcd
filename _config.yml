@@ -9,7 +9,7 @@
 title: D-CD User Manual
 email: your-email@domain.com
 description: > # Documentation for the D-CD320
-baseurl: "/dcd/" # the subpath of your site, e.g. /blog
+baseurl: /dcd # the subpath of your site, e.g. /blog
 url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
 
 # Build settings
