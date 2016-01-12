@@ -11,6 +11,7 @@ title: index
       {% for item in section.docs %}
         {% capture page_path %}_docs{{page.permalink}}{{item}}.md{% endcapture %}
         {% assign ittr_page = site.docs | where:"path", page_path | first %}
+        <h3 id="{{item|slugify}}"></h3>
       {%endfor%}
       </div>
     {%endfor%}
