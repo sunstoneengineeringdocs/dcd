@@ -7,10 +7,9 @@
 
 # Site settings
 title: D-CD User Manual
-email: your-email@domain.com
 description: > # Documentation for the D-CD320
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/dcd/" # the subpath of your site, e.g. /blog
+url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
