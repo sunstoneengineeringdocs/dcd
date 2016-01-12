@@ -11,12 +11,12 @@ description: > # Documentation for the D-CD320
 baseurl: "/dcd/" # the subpath of your site, e.g. /blog
 url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
 
-# # Build settings
-# markdown: kramdown
+# Build settings
+markdown: kramdown
 
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 # collections:
 #   docs:
