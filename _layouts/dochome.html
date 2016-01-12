@@ -5,6 +5,8 @@ title: index
 
 <div class="home">
 
+{{site | jsonify}}
+
     {% for section in site.data.docs %}
       <div class="doc-section">
       <h2 class="section-title" id="{{section.title|slugify}}">{{page.category-names[section.title]}}</h2>
