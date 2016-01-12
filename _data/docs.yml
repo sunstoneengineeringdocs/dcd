@@ -1,0 +1,38 @@
+- title: frontmatter
+  docs:
+  - forward
+
+- title: safty
+  docs:
+  - read-before
+
+- title: ch1
+  docs:
+  - ch1-features
+  - ch1-applications
+
+- title: ch2
+  docs:
+  - ch2-CDR-welding
+  - ch2-tips
+
+- title: ch3
+  docs:
+  - ch3-pre-setup
+  - ch3-welder-setup
+  - ch3-welder-head-setup
+  - ch3-hand-held-attachment
+  - ch3-roll-spot
+
+- title: ch4
+  docs:
+  - ch4-lcd
+  - ch4-pulse-control
+  - ch4-thermo-basics
+  - ch4-datasheet
+
+- title: appendix
+  docs:
+  - appendix-a
+  - appendix-b
+  - sunstone-experience
