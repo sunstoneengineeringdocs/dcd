@@ -11,6 +11,12 @@ description: > # Documentation for the D-CD320
 baseurl: "/dcd/" # the subpath of your site, e.g. /blog
 url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
 
+
+# This is needed if you are using file paths to display file content
+# For github set to "/repo/"
+# For localhost set to ""
+repo_compile_path: "/repo/"
+
 # Build settings
 markdown: kramdown
 

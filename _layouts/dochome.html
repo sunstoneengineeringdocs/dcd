@@ -5,10 +5,16 @@ title: index
 
 <div class="home">
 
-    {% for doc in site.docs %}
-      {{doc.path | jsonify}}
+    {% for section in site.data.docs %}
+      <div class="doc-section">
+      <h2 class="section-title" id="{{section.title|slugify}}">{{page.category-names[section.title]}}</h2>
+      {% for item in section.docs %}
+        {% capture page_path %}{{site.repo_compile_path}}_docs{{page.permalink}}{{item}}.md{% endcapture %}
+        {% assign ittr_page = site.docs | where:"path", page_path | first %}
+        <h3 id="{{item|slugify}}">{{ittr_page.title}}</h3>
+        <div>{{ittr_page.content | markdownify}}</div>
+      {%endfor%}
+      </div>
     {%endfor%}
-
-
 
 </div>
