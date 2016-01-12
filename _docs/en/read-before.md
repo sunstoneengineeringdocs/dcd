@@ -11,7 +11,7 @@ symbols:
 
 <div class="flex-box flex-center flex-wrap">
 	<img src="/dcd/img/warn_warning.png" class="warning-img"/>
-	<img src="../images/warn_electrical_shock.png" class="warning-img"/>
+	<img src="../img/warn_electrical_shock.png" class="warning-img"/>
 	<img src="../img/warn_glasses_required.png" class="warning-img"/>
 </div>
 
