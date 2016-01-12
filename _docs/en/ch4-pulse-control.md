@@ -23,7 +23,7 @@ Sunstone welders will fire twice from a single actuation. The first pulse is
 used to remove surface inconsistencies and contaminants which helps to
 displace oils, break through oxide layers, and seat the welding electrodes.
 
-<img src="/img/ch4-fig9.png" class="figure-img"/>
+<img src="../img/ch4-fig9.png" class="figure-img"/>
 
 ***FIGURE 9:*** This shows what the welder discharge curve would look like when using the dual pulse setting as outlined above
 

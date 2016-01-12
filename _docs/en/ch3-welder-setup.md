@@ -4,7 +4,7 @@ title: "Welder Setup"
 
 ##### QUICK START SET UP OF CDDP WELDER
 
-<img src="/img/ch3-welder-drawing.png" class="figure-img figure-xl"/>
+<img src="../img/ch3-welder-drawing.png" class="figure-img figure-xl"/>
 
 1. Remove the welder from the box and place it on a secure work surface.
 2. Turn Beep on or off according to user preference.

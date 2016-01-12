@@ -18,7 +18,7 @@ and requires shielded wire. *Figure 7* shows the proper pin placement for
 custom external trigger cables. The standard external trigger cable connector
 is an SD-30LP made by CUI Inc.
 
-<img src="/img/ch3-fig7.png" class="figure-img"/>
+<img src="../img/ch3-fig7.png" class="figure-img"/>
 
 ***FIGURE 7:*** External trigger wiring diagram, looking at back of welder, for the welder back panel connector. N.O. stands for Normally Open
 
@@ -41,6 +41,6 @@ unit is again ready to weld. (*These warning beeps will still occur even if the
 flow paths shown in *Figure 8* should be unobstructed. Please maintain a clear
 space of 6+ inches around the welder vents.
 
-<img src="/img/ch3-fig8.png" class="figure-img figure-xl"/>
+<img src="../img/ch3-fig8.png" class="figure-img figure-xl"/>
 
 ***FIGURE 8:*** For proper cooling, ensure all vent locations are unobstructed.

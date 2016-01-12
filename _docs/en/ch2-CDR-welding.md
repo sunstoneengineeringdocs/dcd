@@ -35,7 +35,7 @@ overcome both the material contact resistance and the bulk resistance of the
 material.
 
 
-<img src="/img/ch2-fig1.png" class="figure-img"/>
+<img src="../img/ch2-fig1.png" class="figure-img"/>
 
 ***Figure 1:*** Sample Capacitor Discharge Curve.
 

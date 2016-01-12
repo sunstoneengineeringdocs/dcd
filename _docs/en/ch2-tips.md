@@ -13,7 +13,7 @@ electrode pressure results in less metal contact, higher resistance, and a
 hotter weld. An appropriate amount of pressure should be used to insure
 good weld strength. 
 
-<img src="/img/ch2-fig2.png" class="figure-img"/>
+<img src="../img/ch2-fig2.png" class="figure-img"/>
 
 ***FIGURE 2:*** On the micro-scale, surface roughness limits surface-to-surface contact. More contact points result in a lower contact resistance.
 
@@ -28,13 +28,13 @@ materials. *Figure 3c* is a series configuration. Electrodes can only be placed
 on one metal surface from one side. Current is divided between the two
 parts. This weld configuration requires more weld energy.
 
-<img src="/img/ch2-fig3.png" class="figure-img"/>
+<img src="../img/ch2-fig3.png" class="figure-img"/>
 
 ***FIGURE 3:*** Examples of resistance welding electrode configurations: a. direct, b. step, c. series.
 
 ##### WELD ENERGY
 
-<img src="/img/ch2-front-panel.png" class="figure-img figure-l img-rounded"/>
+<img src="../img/ch2-front-panel.png" class="figure-img figure-l img-rounded"/>
 
 Sunstone capacitive Dual Pulse welders allow adjustment of the stored
 energy via an energy adjustment dial. The energy is then displayed in watt
@@ -60,7 +60,7 @@ to produce unusual welding wave forms. For example *Figure 4* shows a typical
 capacitive discharge wave form next to a high current low energy wave form
 that can be produced with the DCD320 in CD mode.
 
-<img src="/img/ch2-fig4.png" class="figure-img figure-l"/>
+<img src="../img/ch2-fig4.png" class="figure-img figure-l"/>
 
 ***Figure 4:*** A typical capacitive discharge wave form next to a high current low
 energy wave form that can be produced with the DCD320 in CD mode.
@@ -87,7 +87,7 @@ and weld load. If for example the DC mode is being utilized for a thermocompress
 application and a voltage of 4.0V were selected and a time of
 100ms were selected the resulting wave form would occur:
 
-<img src="/img/ch2-fig5.png" class="figure-img"/>
+<img src="../img/ch2-fig5.png" class="figure-img"/>
 
 ***Figure 5:*** A DC “Dynamic Capacitive” discharge curve with a voltage set-point of 4V and a duration of 100ms.
 
@@ -100,7 +100,7 @@ allowed value would maintain at the set-point voltage. As an example if the
 weld settings were 1.5V and 100ms the wave form would take the following
 shape:
 
-<img src="/img/ch2-fig6.png" class="figure-img"/>
+<img src="../img/ch2-fig6.png" class="figure-img"/>
 
 ***Figure 6:*** A DC “Dynamic Capacitive” discharge curve with a voltage set-point of 1.5V and a duration of 100ms.
 

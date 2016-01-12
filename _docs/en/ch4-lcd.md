@@ -4,7 +4,7 @@ title: "LCD Screen"
 
 ##### LCD DISPLAYED MESSAGES
 
-<img src="/img/ch4-front-panel.png" class="figure-img figure-l"/>
+<img src="../img/ch4-front-panel.png" class="figure-img figure-l"/>
 
 The DCD320 allows the user to switch between CD and DC mode and adjust
 two welding pulses in each mode. The energy or voltage is controlled with the

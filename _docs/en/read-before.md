@@ -10,7 +10,7 @@ symbols:
 ##### CAUTION ELECTRIC SHOCK HAZARD, EYE PROTECTION REQUIRED
 
 <div class="flex-box flex-center flex-wrap">
-	<img src="/dcd/img/warn_warning.png" class="warning-img"/>
+	<img src="../img/warn_warning.png" class="warning-img"/>
 	<img src="../img/warn_electrical_shock.png" class="warning-img"/>
 	<img src="../img/warn_glasses_required.png" class="warning-img"/>
 </div>
@@ -20,7 +20,7 @@ for proper action when dealing with these hazards.
 
 ##### READ INSTRUCTIONS
 
-<img src="/img/warn_read_manual.png" class="warning-img pull-left"/>
+<img src="../img/warn_read_manual.png" class="warning-img pull-left"/>
 
 * Read the owner’s manual before using the welder.
 * Only personnel trained and certified by the manufacturer should service the unit.
@@ -30,7 +30,7 @@ for proper action when dealing with these hazards.
 
 ##### SAFETY PRECAUTIONS FOR FIRE OR EXPLOSION
 
-<img src="/img/warn_explosions.png" class="warning-img pull-left limit-margin-bottom"/>
+<img src="../img/warn_explosions.png" class="warning-img pull-left limit-margin-bottom"/>
 
 There is a possibility that flying sparks, hot work pieces, and/
 or hot equipment can cause fires and burns. Ensure that your
@@ -52,7 +52,7 @@ weld job.
 
 ##### SAFETY PRECAUTIONS FOR ELECTRICAL SHOCK
 
-<img src="/img/warn_electrical_shock.png" class="warning-img pull-left limit-margin-bottom"/>
+<img src="../img/warn_electrical_shock.png" class="warning-img pull-left limit-margin-bottom"/>
 
 Sunstone capacitive single pulse welders are equipped with
 universal power supplies and can be used with both
@@ -82,7 +82,7 @@ equipment is a hazard. Do not operate welder in a wet/damp environment.
 
 ##### PERSONAL PROTECTIVE EQUIPMENT RECOMMENDATIONS FOR FLYING SPARKS AND ARC RAYS
 
-<img src="/img/warn_glasses_required.png" class="warning-img pull-left limit-margin-bottom"/>
+<img src="../img/warn_glasses_required.png" class="warning-img pull-left limit-margin-bottom"/>
 
 It is essential for every person in the immediate work area to
 wear/utilize proper Personal Protection Equipment. There is a
@@ -95,7 +95,7 @@ spark within your own clothing.
 
 ##### SAFETY PRECAUTIONS FOR HOT METAL AND CABLES
 
-<img src="/img/warn_hot_to_touch.png" class="warning-img pull-left limit-margin-bottom"/>
+<img src="../img/warn_hot_to_touch.png" class="warning-img pull-left limit-margin-bottom"/>
 
 
 Welding material that has a high thermal conductivity will
@@ -109,7 +109,7 @@ location can also cause metal to heat rapidly.
 
 ##### SAFETY PRECAUTIONS FOR FUMES AND GASES
 
-<img src="/img/warn_fumes.png" class="warning-img pull-left limit-margin-bottom"/>
+<img src="../img/warn_fumes.png" class="warning-img pull-left limit-margin-bottom"/>
 
 Welding can produce fumes and gases. Breathing these
 fumes and gases can be hazardous to your health. Sunstone
@@ -136,21 +136,21 @@ these elements can give off toxic fumes if welded.
 
 ##### SAFETY PRECAUTIONS FOR FALLING EQUIPMENT
 
-<img src="/img/warn_heavy_equip.png" class="warning-img pull-left"/>
+<img src="../img/warn_heavy_equip.png" class="warning-img pull-left"/>
 
 * Use a working surface of adequate physical strength to support the welding unit during operation or storage.
 * Secure welding unit during transport so that it cannot tip or fall.
 
 ##### MAGNETIC FIELDS CAN AFFECT IMPLANTED MEDICAL DEVICES
 
-<img src="/img/warn_electromagnetic_noise.png" class="warning-img pull-left"/>
+<img src="../img/warn_electromagnetic_noise.png" class="warning-img pull-left"/>
 
 * Wearers of pacemakers and other implanted medical devices should keep away.
 * Implanted medical device wearers should consult their doctor and the device manufacturer before going near arc welding, spot welding, gouging, plasma arc cutting, or induction heating operations.
 
 ##### OVERUSE CAN CAUSE OVERHEATING
 
-<img src="/img/warn_hot_equip.png" class="warning-img pull-left"/>
+<img src="../img/warn_hot_equip.png" class="warning-img pull-left"/>
 
 * Allow a cooling period between strenuous welding schedules; follow rated duty cycle.
 * If overheating occurs often, reduce duty cycle before starting to weld again

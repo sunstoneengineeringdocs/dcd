@@ -11,7 +11,7 @@ phases in a thermo-compression bonding process.
 <ol class="list-no-number">
 	<li>
 		<div class="flex-box">
-			<img src="/img/ch4-bonding-step1.png" class="step-img"/>
+			<img src="../img/ch4-bonding-step1.png" class="step-img"/>
 		 	<p>
 
 		 	<i>1.</i> Before the weld takes place, the enamel coated wire (or uncoated wire if desired) should be placed under the thermocompression tip. The joint between the two electrode sides is the best location for most effective heating.
@@ -21,7 +21,7 @@ phases in a thermo-compression bonding process.
 	</li>
 	<li>
 		<div class="flex-box">
-			<img src="/img/ch4-bonding-step2.png" class="step-img"/>
+			<img src="../img/ch4-bonding-step2.png" class="step-img"/>
 			<p>
 
 			<i>2.</i> During a thermo-compression bond the heat to produce the weld is created at the electrode tip (where the two sides of the electrode touch). The heat first removes the enamel of polymer coat via evaporation or melt-back, and then the heat is transferred via electrode pressure to melt the copper wire and substrate. This process can happen in two stages depending on the wire coating and wire diameter. The first stage could be pulse 1 being used to remove the enamel coat. The second pulse could then be used to create the actual wire to substrate bond. However, many wires will allow the removal of the enamel and the bond to take place in only one pulse. In this case turn off the first pulse (pulse 1) and only use pulse 2. This entire process takes around 100ms of time for a typical enamel coated wire. Please note that best results are typically achieved for 31AWG wire and above (smaller wire).
@@ -30,7 +30,7 @@ phases in a thermo-compression bonding process.
 	</li>
 	<li>
 		<div class="flex-box">
-			<img src="/img/ch4-bonding-step3.png" class="step-img"/>
+			<img src="../img/ch4-bonding-step3.png" class="step-img"/>
 			<p>
 
 			<i>3.</i> The electrode will then cool the weld joint to solidify the weld. This process takes around 50-100ms of time. Typically this will occur without the operator’s conscious knowledge directly after the weld.
@@ -40,7 +40,7 @@ phases in a thermo-compression bonding process.
 	</li>
 	<li>
 		<div class="flex-box">
-			<img src="/img/ch4-bonding-step4.png" class="step-img"/> 
+			<img src="../img/ch4-bonding-step4.png" class="step-img"/> 
 			<p>
 
 			<i>4.</i> The section of wire under the electrode has been flattened. Depending on the electrode shape the wire can be made to break off easily on one side (see examples below).
@@ -65,7 +65,7 @@ the *Figure 10a* type of electrode is recommended. This weld shape will also
 have a stronger bond than a flat electrode because of the deeper electrode
 penetration on the wedge point.
 
-<img src="/img/ch4-fig10.png" class="figure-img"/>
+<img src="../img/ch4-fig10.png" class="figure-img"/>
 
 ***Figure 10:*** The thermocompression electrode can be shaped to help with wire strain relief or to help move excess wire after the welding process
 
@@ -76,7 +76,7 @@ TCB generated heat away and this helps the melting and bonding process.
 However, the second diagram shows and large copper base for the weld
 substrate.
 
-<img src="/img/ch4-fig11.png" class="figure-img"/>
+<img src="../img/ch4-fig11.png" class="figure-img"/>
 
 ***Figure 11:*** A thermocompression bond (TCB) will be easy or difficult depending on the mass and conductivity of the part and wire.
 
