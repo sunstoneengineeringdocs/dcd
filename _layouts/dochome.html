@@ -12,7 +12,7 @@ title: index
         {% capture page_path %}_docs{{page.permalink}}{{item}}.md{% endcapture %}
         {% assign ittr_page = site.docs | where:"path", page_path | first %}
         <h3 id="{{item|slugify}}">{{ittr_page.title}}</h3>
-        <div>{{ittr_page.title | markdownify}}</div>
+        <div>{{ittr_page.title }}</div>
       {%endfor%}
       </div>
     {%endfor%}
