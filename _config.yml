@@ -18,6 +18,6 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-# collections:
-#   docs:
-#     output: true
+collections:
+  docs:
+    output: true
