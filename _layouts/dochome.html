@@ -5,6 +5,13 @@ title: index
 
 <div class="home">
 
+    {% for section in site.data.docs %}
+      <div class="doc-section">
+      <h2 class="section-title" id="{{section.title|slugify}}"></h2>
+      {% for item in section.docs %}
         {% capture page_path %}_docs{{page.permalink}}{{item}}.md{% endcapture %}
+      {%endfor%}
+      </div>
+    {%endfor%}
 
 </div>
