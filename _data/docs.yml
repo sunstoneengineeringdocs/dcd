@@ -1,8 +1,6 @@
 - title: frontmatter
   docs:
   - forward
-<<<<<<< HEAD
-=======
 
 - title: safty
   docs:
@@ -38,4 +36,3 @@
   - appendix-a
   - appendix-b
   - sunstone-experience
->>>>>>> parent of e774780... removed the majority of the pages to test
