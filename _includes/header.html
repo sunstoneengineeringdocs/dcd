@@ -6,9 +6,10 @@
 
     <div class="site-title">{{ site.title }}</div>
 
+	{% capture languagecount %}{{site.data.languages | size}}{% endcapture %}
+    {% if languagecount != "0" and languagecount != "1" and languagecount != "" %}
     <div class="change-language">
-    	{% capture languagecount %}{{site.data.languages | size}}{% endcapture %}
-    	{% if languagecount != "0" and languagecount != "1" and languagecount != "" %}
+    	
     	<div class="dropdown">
 		  	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 		    	{{page.languages-translation}}
@@ -22,9 +23,10 @@
 		    	{%endfor%}
 		  	</ul>
 		</div>
-		{% endif %}
+		
 
     </div>
+    {% endif %}
 
   </div>
 

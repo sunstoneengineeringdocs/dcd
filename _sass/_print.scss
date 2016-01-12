@@ -110,6 +110,10 @@
             page-break-inside: avoid;
         }
 
+        img {
+            page-break-inside: avoid;
+        }
+
         blockquote{
             border: none;
             text-align: center;
@@ -121,7 +125,7 @@
 
 } 
 .print-footer{
-    display: none;
+        display: none;
         // height: 50px;
         // width: 210mm;
         // margin-bottom:-20mm;
