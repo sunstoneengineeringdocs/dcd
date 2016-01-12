@@ -6,12 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # # Site settings
-# title: D-CD User Manual
-# description: > # Documentation for the D-CD320
-# baseurl: "/dcd/" # the subpath of your site, e.g. /blog
-# url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+title: D-CD User Manual
+description: > # Documentation for the D-CD320
+baseurl: "/dcd/" # the subpath of your site, e.g. /blog
+url: "http://docs.sunstoneengineering.com" # the base hostname & protocol for your site
 
 # # Build settings
 # markdown: kramdown
