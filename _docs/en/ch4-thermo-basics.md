@@ -8,9 +8,9 @@ Thermo-compression bonding (TCB) has several important considerations
 to produce a strong and repeatable joint. Outlined below are the important
 phases in a thermo-compression bonding process.
 
-<ol class="list-no-number">
+<ol class="list-no-number instruction-list">
 	<li>
-		<div class="flex-box flex-wrap">
+		<div class="flex-box">
 			<img src="../img/ch4-bonding-step1.png" class="step-img"/>
 		 	<p>
 
@@ -20,7 +20,7 @@ phases in a thermo-compression bonding process.
 		</div>
 	</li>
 	<li>
-		<div class="flex-box flex-wrap">
+		<div class="flex-box">
 			<img src="../img/ch4-bonding-step2.png" class="step-img"/>
 			<p>
 
@@ -29,7 +29,7 @@ phases in a thermo-compression bonding process.
 		</div>
 	</li>
 	<li>
-		<div class="flex-box flex-wrap">
+		<div class="flex-box">
 			<img src="../img/ch4-bonding-step3.png" class="step-img"/>
 			<p>
 
@@ -39,7 +39,7 @@ phases in a thermo-compression bonding process.
 		</div>
 	</li>
 	<li>
-		<div class="flex-box flex-wrap">
+		<div class="flex-box">
 			<img src="../img/ch4-bonding-step4.png" class="step-img"/> 
 			<p>
 
