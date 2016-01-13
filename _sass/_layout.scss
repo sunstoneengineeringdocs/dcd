@@ -292,23 +292,7 @@ table{
 
 }
 
-@media (max-width: 767px){
-    .site-header .container{
 
-        flex-direction:column;
-        padding-bottom: 15px;
-
-        .site-title{
-            text-align:left;
-        }
-
-    }
-
-    .instruction-list{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 
 
 
@@ -549,6 +533,27 @@ body{
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .site-header .container{
+
+        flex-direction:column;
+        padding-bottom: 15px;
+
+        .site-title{
+            text-align:left;
+        }
+
+    }
+
+    .instruction-list{
+        margin-left: 0;
+        .flex-box{
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
