@@ -19,7 +19,7 @@
 		    	{% for language in site.data.languages %}
 			    	{% capture page_path %}_docs/{{language}}/doc-main.md{% endcapture %}
 	        		{% assign ittr_page = site.docs | where:"path", page_path | first %}
-		    		<li><a href="{{ittr_page.permalink}}">{{ittr_page.language-name}}</a></li>
+		    		<li><a href="{{site.baseurl}}{{ittr_page.permalink}}">{{ittr_page.language-name}}</a></li>
 		    	{%endfor%}
 		  	</ul>
 		</div>

@@ -5,7 +5,7 @@
 		      <div class="sidebar-group-name"><a href="#{{section.title | slugify}}">{{page.category-names[section.title]}}</a></div>
 		      <ul class="nav">
 		      {% for item in section.docs %}
-		      	{% capture page_name %}{{site.source}}/_docs{{page.permalink}}{{item}}.md{% endcapture %}
+		      	{% capture page_name %}_docs{{page.permalink}}{{item}}.md{% endcapture %}
 		      	{% assign ittr_page = site.docs | where:"path", page_name | first %}
 		        <li><a href="#{{item | slugify}}">{{ittr_page.title}}</a></li>
 		      {%endfor%}
